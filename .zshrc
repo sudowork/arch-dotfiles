@@ -37,4 +37,5 @@ plugins=(archlinux cp command-not-found git git-extras github gnu-utils history 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin/core_perl
+path=(/usr/local/bin /usr/bin /bin /usr/local/sbin /usr/sbin /sbin /usr/bin/core_perl $path)
+path=(${HOME}bin $path)
