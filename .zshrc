@@ -39,3 +39,8 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 path=(/usr/local/bin /usr/bin /bin /usr/local/sbin /usr/sbin /sbin /usr/bin/core_perl $path)
 path=(${HOME}bin $path)
+
+# Load aliases
+for f in $HOME/dotfiles/*.sh; do
+    source $f
+done
