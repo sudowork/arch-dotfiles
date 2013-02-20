@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="kphoen"
+ZSH_THEME="juanghurtado"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -33,14 +33,23 @@ ZSH_THEME="kphoen"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(archlinux cp command-not-found git git-extras github gnu-utils history history-substring-search node npm vi-mode)
+# ruby plugins
+plugins=(bundler gem rake rbenv ruby $plugins)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 path=(/usr/local/bin /usr/bin /bin /usr/local/sbin /usr/sbin /sbin /usr/bin/core_perl $path)
-path=(${HOME}bin $path)
+path=($HOME/.rbenv/bin $HOME/bin $path)
 
 # Load aliases
 for f in $HOME/dotfiles/*.sh; do
     source $f
 done
+
+# Load autojump
+source /usr/etc/profile.d/autojump.sh
+
+# rbenv and gems
+path=($HOME/.gem/ruby/1.9.1/bin $path)
+eval "$(rbenv init -)"
