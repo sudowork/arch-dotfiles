@@ -54,3 +54,6 @@ alias gsmu='git submodule update'
 alias gt='git t'
 alias gbg='git bisect good'
 alias gbb='git bisect bad'
+
+# REPLs
+alias sml='rlwrap sml'
