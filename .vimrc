@@ -112,3 +112,6 @@ map <C-l> <C-w>l
 
 " Switch CWD to current buffer's path
 map <leader>cd :cd %:p:h<cr>:pwd<cr>
+
+" Toggle pastemode
+set pastetoggle=<leader>p
