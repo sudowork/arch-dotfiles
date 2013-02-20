@@ -57,8 +57,8 @@ URxvt*font:                           xft:inconsolata:pixelsize=16:antialias=tru
 URxvt*boldFont:                       xft:inconsolata:bold:pixelsize=16:antialias=true
 URxvt*jumpScroll:                     true
 URxvt*scrollstyle:                    plain
-URxvt*scrollBar_right:                true
-URxvt*saveLines:                      20000
+URxvt*scrollBar:                      false
+URxvt*saveLines:                      32000
 URxvt*scrollWithBuffer:               true
 URxvt*scrollTtyOutput:                false
 URxvt*scrollTtyKeypress:              true
@@ -90,8 +90,8 @@ URxvt.keysym.H-v:                     perl:clipboard:paste
 URxvt*dynamicColors:                  on
 URxvt*intensityStyles:                false
 
-urxvt.termName:                       rxvt-256color
-urxvt.depth:                          32
+URxvt.termName:                       rxvt-256color
+URxvt.depth:                          32
 
 
 !---- Light URxvt (Solarized Light, 11pt) {
