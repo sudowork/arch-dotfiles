@@ -91,8 +91,9 @@ execute pathogen#infect()
 
 " Enable syntax highlighting and colorscheme
 syntax enable
-colorscheme solarized
 set background=dark
+let g:solarized_termtrans=1
+colorscheme solarized
 
 " Font stuff
 set encoding=utf8

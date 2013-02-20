@@ -53,7 +53,8 @@ Xmessage*geometry:                    +20+20
 URxvt*:borderLess:                    true
 URxvt*internalBorder:                 4
 URxvt*cursorBlink:                    true
-URxvt*font:                           xft:inconsolata:pixelsize=18:antialias=true
+URxvt*font:                           xft:inconsolata:pixelsize=16:antialias=true
+URxvt*boldFont:                       xft:inconsolata:bold:pixelsize=16:antialias=true
 URxvt*jumpScroll:                     true
 URxvt*scrollstyle:                    plain
 URxvt*scrollBar_right:                true
@@ -87,6 +88,7 @@ URxvt*url-select.underline:           true
 URxvt*clipboard.autocopy:             true
 URxvt.keysym.H-v:                     perl:clipboard:paste
 URxvt*dynamicColors:                  on
+URxvt*intensityStyles:                false
 
 urxvt.termName:                       rxvt-256color
 urxvt.depth:                          32
