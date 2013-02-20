@@ -16,8 +16,8 @@
 Xft.antialias:                        true
 Xft.autohint:                         false
 Xft.hinting:                          true
-Xft.hintstyle:                        hintfull
-!Xft.hintstyle:                       hintmedium
+!Xft.hintstyle:                        hintfull
+Xft.hintstyle:                        hintmedium
 Xft.dpi:                              96
 Xft.rgba:                             rgb
 !Xft.embolden:                        false
@@ -51,10 +51,10 @@ Xmessage*geometry:                    +20+20
 
 !---- URxvt - General settings {
 URxvt*:borderLess:                    true
-URxvt*internalBorder:                 4
+URxvt*internalBorder:                 0
 URxvt*cursorBlink:                    true
 URxvt*font:                           xft:inconsolata:pixelsize=16:antialias=true
-URxvt*boldFont:                       xft:inconsolata:bold:pixelsize=16:antialias=true
+URxvt*boldFont:                       xft:inconsolata:pixelsize=16:antialias=true
 URxvt*jumpScroll:                     true
 URxvt*scrollstyle:                    plain
 URxvt*scrollBar:                      false
