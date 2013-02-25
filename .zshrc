@@ -53,3 +53,6 @@ source /usr/etc/profile.d/autojump.sh
 # rbenv and gems
 path=($HOME/.gem/ruby/1.9.1/bin $path)
 eval "$(rbenv init -)"
+
+# sml
+path=(/usr/lib/smlnj/bin $path)
