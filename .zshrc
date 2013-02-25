@@ -32,7 +32,7 @@ ZSH_THEME="juanghurtado"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(archlinux cp command-not-found git git-extras github gnu-utils history history-substring-search node npm vi-mode)
+plugins=(archlinux cp command-not-found git git-extras github gnu-utils history history-substring-search node npm systemd vi-mode zsh-syntax-highlighting)
 # ruby plugins
 plugins=(bundler gem rake rbenv ruby $plugins)
 
