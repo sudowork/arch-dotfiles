@@ -58,6 +58,13 @@ set laststatus=2
 
 
 """""""""""""""""""""""""
+" => Settings
+"""""""""""""""""""""""""
+set backupdir=$HOME/.vim/bak
+set directory=$HOME/.vim/swp
+
+
+"""""""""""""""""""""""""
 " => Input Behavior
 """""""""""""""""""""""""
 
