@@ -89,10 +89,13 @@
 [mergetool "mvimdiff"]
   cmd="mvim -c 'Gdiff' $MERGED"     # use fugitive.vim for 3-way merge
   keepbackup=false
+[mergetool "splice"]
+  cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'SpliceInit'"
+  trustExitCode = true
 [merge]
   summary = true
   verbosity = 1
-  tool = mvimdiff
+  tool = splice
 [apply]
   whitespace = nowarn
 [branch]
@@ -104,7 +107,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.yadr/git/gitignore
+  excludesfile = ~/.gitignore
 [advice]
   statusHints = false
 [diff]
