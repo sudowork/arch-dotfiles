@@ -110,6 +110,7 @@
 [diff]
   # Git diff will use (i)ndex, (w)ork tree, (c)ommit and (o)bject
   # instead of a/b/c/d as prefixes for patches
+  external = git_diff_wrapper
   mnemonicprefix = true
 [rerere]
   # Remember my merges
@@ -118,3 +119,5 @@
 [user]
   email = sudowork@gmail.com
   name = Kevin Gao
+[pager]
+  diff =
